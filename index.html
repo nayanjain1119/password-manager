@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>passX-your personal password manager</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+
+    *{
+
+        margin: 0;
+        padding: 0;
+    }
+nav{
+    background-color: rgb(54, 141, 154);
+    padding:12px 43px;
+    display:flex;
+    judtify-content:space-between;
+    text-align: left;
+}
+ul{
+    display: flex;
+    margin: 23px;
+
+}
+
+ul li 
+{   
+list-style: none;
+margin:13px;
+disply:flex;
+align-items: center;
+}
+table,tr{
+    border:2px solid black
+}
+.container{
+    max-width:80vw;
+    margin:23px auto;
+}
+td{
+
+}
+</style>
+</head>
+<body>
+    <nav>       
+ <ul>
+<li>passX</li>
+<li>Home</li>
+<li>about</li>
+<li>Contact</li>
+
+ </ul>
+    </nav>
+    <div class="container">
+    <h1>password manager</h1>
+    <p> We'r thrilled to have you here. your digital life contains a myriad of password,and we know how challenging it can be to manage them all. thats why we're here to make it easy for you.</p>
+    <h2>Your password</h2>
+    <h2>Add a password</h2>
+    <table>
+        <tr>
+            <th>website</th>
+            <th>username</th>
+            <th>password</th>
+            <th>delete</th>
+
+        </tr>
+        <tr>
+        <td>nyc</td>
+        <td>nayanjain1119@gmail.com</td>
+        </tr>
+        <tr>
+            <td>nayansi</td>
+            <td>100</td>
+            </tr>
+            <tr>
+                <td>nayansi</td>
+                <td>100</td>
+                </tr>
+    </table>
+<h2>Add a password</h2>
+<form action="/submit" method="post"
+<label for="username">username:</label>
+<input type="text" id="username" Name="username" required>
+<br>
+</br>
+
+
+<label for="password">password:</label>
+<input type="text" id="password">
+<button type="submit">submit</button>
+
+</form>
+</div>
+<script src="script.js"></script>
+    </div>
+</body>
+</html>
